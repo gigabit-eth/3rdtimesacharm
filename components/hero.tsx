@@ -76,7 +76,7 @@ export default function Hero() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-gradient-to-r from-[#0CBFED] to-[#C7F183] w-full mb-4 sm:w-auto sm:mb-0 border border-black"
+                    className="btn text-black bg-gradient-to-r from-[#0CBFED] to-[#C7F183] w-full mb-4 sm:w-auto sm:mb-0 border border-black"
                     href="https://jup.ag/swap/SOL-GME_8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
                     target="_blank"
                   >
@@ -85,7 +85,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <a
-                    className="btn text-white bg-gradient-to-r from-[#36BCE0] to-[#C436F1] w-full sm:w-auto sm:ml-4 mb-4 sm:mb-0 border-black border"
+                    className="btn text-black bg-gradient-to-r from-[#36BCE0] to-[#C436F1] w-full sm:w-auto sm:ml-4 mb-4 sm:mb-0 border-black border"
                     href="https://raydium.io/swap/?outputCurrency=8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
                     target="_blank"
                   >
@@ -94,7 +94,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <a
-                    className="btn text-white bg-gradient-to-r from-[#F8C702] to-[#FE4F29] w-full sm:w-auto sm:ml-4 border border-black"
+                    className="btn text-black bg-gradient-to-r from-[#F8C702] to-[#FE4F29] w-full sm:w-auto sm:ml-4 border border-black"
                     href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB?chain=solana"
                     target="_blank"
                   >
