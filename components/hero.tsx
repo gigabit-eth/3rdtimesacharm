@@ -44,17 +44,17 @@ export default function Hero() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Wall St. {""}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+              <span className="text-white">Wall St. {""}</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FE4A49] to-[#FED766]">
                 Can't{" "}
               </span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FE4A49] to-[#FED766]">
                 Stop It Now
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-lg text-gray-600 mb-8"
+                className="text-lg text-gray-300 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
@@ -76,7 +76,7 @@ export default function Hero() {
               >
                 <div>
                   <a
-                    className="btn text-black hover:bg-gray-600 w-full mb-4 sm:w-auto sm:mb-0 border border-gray-900"
+                    className="btn text-white bg-gradient-to-r from-[#0CBFED] to-[#C7F183] w-full mb-4 sm:w-auto sm:mb-0 border border-black"
                     href="https://jup.ag/swap/SOL-GME_8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
                     target="_blank"
                   >
@@ -85,7 +85,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <a
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full sm:w-auto sm:ml-4 mb-4 sm:mb-0"
+                    className="btn text-white bg-gradient-to-r from-[#36BCE0] to-[#C436F1] w-full sm:w-auto sm:ml-4 mb-4 sm:mb-0 border-black border"
                     href="https://raydium.io/swap/?outputCurrency=8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
                     target="_blank"
                   >
@@ -94,7 +94,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <a
-                    className="btn text-black hover:bg-gray-800 w-full sm:w-auto sm:ml-4 border border-gray-900"
+                    className="btn text-white bg-gradient-to-r from-[#F8C702] to-[#FE4F29] w-full sm:w-auto sm:ml-4 border border-black"
                     href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB?chain=solana"
                     target="_blank"
                   >

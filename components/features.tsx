@@ -24,17 +24,19 @@ export default function Features() {
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-black pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gradient-to-b from-[#0CBFED] to-[#C7F183] transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">$GME Memecoin:</h1>
-            <p className="text-xl text-gray-600">
+            <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183] uppercase">
+              $GME Memecoin:
+            </h1>
+            <p className="text-xl text-gray-300">
               This isn't just a cryptocurrency; it's a commemoration, a digital
               monument to the sheer force of collective belief and the power of
               the underdog. Born on the Solana blockchain, known for its
@@ -53,11 +55,15 @@ export default function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa.
+                <h3 className="h3 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-[#F8C702] to-[#FE4F29] uppercase">
+                  Let's run it back.
+                </h3>
+                <p className="text-xl text-gray-300">
+                  The 3rd anniversary of the GameStop short squeeze happened on
+                  January 22nd, 2021. Now exactly 3 years to the date $GME on
+                  Solana is a tribute to the GameStop short squeeze, a digital
+                  monument to the sheer force of collective belief and the power
+                  of the underdog.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -65,8 +71,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-gray-900 shadow-md border-gray-700 hover:shadow-lg"
+                      : "bg-zinc-800 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -75,12 +81,16 @@ export default function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                      Benefit #1 of $GME Memecoin
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-gray-300 uppercase">
+                      No halting this train
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                    <div className="text-gray-400">
+                      Wall Street screwed the normies, and the normies screwed
+                      it right back. The GameStop short squeeze was a watershed
+                      in a new era of financial rebellion, a moment when the
+                      little guy had the big guy on the ropes. Now, the $GME
+                      Memecoin is here to remind us that the power of the people
+                      is greater than the people in power.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -96,8 +106,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-gray-900 shadow-md border-gray-700 hover:shadow-lg"
+                      : "bg-zinc-800 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -106,10 +116,10 @@ export default function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-gray-300 uppercase">
                       Community-Driven Movement
                     </div>
-                    <div className="text-gray-600">
+                    <div className="text-gray-400">
                       At its core, $GME Memecoin is fueled by its community,
                       reflecting the collective will and aspirations of its
                       members. It's a platform where voices are heard, and
@@ -133,8 +143,8 @@ export default function Features() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-gray-900 shadow-md border-gray-700 hover:shadow-lg"
+                      : "bg-zinc-800 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -143,7 +153,7 @@ export default function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-gray-300 uppercase">
                       Decentralized and Democratic
                     </div>
                     <div className="text-gray-600">
