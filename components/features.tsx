@@ -62,11 +62,11 @@ export default function Features() {
                   Let's run it back.
                 </h3>
                 <p className="text-xl text-gray-300">
-                  In January of 2021 the GME short squeeze rocked the world, and
-                  with it changed the face of retail investing. Fast forward 3
-                  years later, and $GME on Solana is a tribute to the GameStop
-                  saga, a sheer digital force of collective belief and the power
-                  of the underdog.
+                  In January of 2021 the GameStop short squeeze rocked the
+                  world, and with it changed the face of retail investing. Fast
+                  forward 3 years later, and $GME on Solana is a tribute to the
+                  GameStop saga, a sheer digital force of collective belief and
+                  the power of the underdog.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -125,8 +125,8 @@ export default function Features() {
                     <div className="text-gray-400">
                       At its core, $GME Memecoin is fueled by its community,
                       reflecting the collective will and aspirations of its
-                      members. It's a platform where voices are heard, and
-                      actions resonate, shaping the future of the coin and its
+                      members. It's a vibe where voices are heard, and actions
+                      resonate, shaping the future of the memecoin and its
                       underlying principles.
                     </div>
                   </div>
@@ -160,11 +160,11 @@ export default function Features() {
                       Decentralized and Democratic
                     </div>
                     <div className="text-gray-600">
-                      Embracing the ethos of decentralization, $GME on Solana
+                      Embracing the freedom of decentralization, $GME on Solana
                       operates with a transparent and democratic framework,
                       ensuring that power is distributed among its holders, not
-                      centralized in the hands of a few, thereby challenging the
-                      conventional financial institutions' dominance.
+                      centralized in the hands of a few, thereby challenging any
+                      tradfi dominance.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-zinc-700 rounded-full shadow flex-shrink-0 ml-3">
