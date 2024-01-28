@@ -9,7 +9,7 @@ export default function Hero() {
         className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
         aria-hidden="true"
       >
-        <svg
+        {/* <svg
           width="1360"
           height="578"
           viewBox="0 0 1360 578"
@@ -32,7 +32,7 @@ export default function Hero() {
             <circle cx="1232" cy="128" r="128" />
             <circle cx="155" cy="443" r="64" />
           </g>
-        </svg>
+        </svg> */}
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

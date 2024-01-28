@@ -5,6 +5,10 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
+import KeithGill from "@/public/images/keith-gill.gif";
+import Community from "@/public/images/community.jpg";
+import Reddit from "@/public/images/reddit.jpg";
+import Stand from "@/public/images/stand.jpg";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -206,19 +210,19 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg}
+                        src={KeithGill}
                         width={500}
                         height="462"
                         alt="Features bg"
                       />
-                      <Image
+                      {/* <Image
                         className="md:max-w-none absolute w-full left-0 transform animate-float"
                         src={FeaturesElement}
                         width={500}
                         height="44"
                         alt="Element"
                         style={{ top: "30%" }}
-                      />
+                      /> */}
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -238,19 +242,19 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg}
+                        src={Reddit}
                         width={500}
                         height="462"
                         alt="Features bg"
                       />
-                      <Image
+                      {/* <Image
                         className="md:max-w-none absolute w-full left-0 transform animate-float"
                         src={FeaturesElement}
                         width={500}
                         height="44"
                         alt="Element"
                         style={{ top: "30%" }}
-                      />
+                      /> */}
                     </div>
                   </Transition>
                   {/* Item 3 */}
@@ -270,19 +274,19 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg}
+                        src={Stand}
                         width={500}
                         height="462"
                         alt="Features bg"
                       />
-                      <Image
+                      {/* <Image
                         className="md:max-w-none absolute w-full left-0 transform animate-float"
                         src={FeaturesElement}
                         width={500}
                         height="44"
                         alt="Element"
                         style={{ top: "30%" }}
-                      />
+                      /> */}
                     </div>
                   </Transition>
                 </div>
