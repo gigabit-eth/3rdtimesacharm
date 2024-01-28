@@ -41,13 +41,12 @@ export default function Features() {
               $GME Memecoin:
             </h1>
             <p className="text-xl text-gray-300">
-              This isn't just a cryptocurrency; it's a commemoration, a digital
-              monument to the sheer force of collective belief and the power of
-              the underdog. Born on the Solana blockchain, known for its
-              lightning-fast transactions and pioneering spirit, the $GME
-              Memecoin embodies the essence of that historic rebellion against
-              financial titans, channeling the anarchic energy and unyielding
-              spirit that defined the GameStop mania.
+              This isn't just a cryptocurrency; it's a movement, a display of
+              the digital community and the power of the underdog. Born on the
+              Solana blockchain, known for its lightning-fast transactions and
+              pioneering spirit, the $GME Memecoin embodies the essence of that
+              historic rebellion against financial titans, channeling the raw
+              energy and incredible support that defined the GameStop mania.
             </p>
           </div>
 
@@ -63,10 +62,10 @@ export default function Features() {
                   Let's run it back.
                 </h3>
                 <p className="text-xl text-gray-300">
-                  The 3rd anniversary of the GameStop short squeeze happened on
-                  January 22nd, 2021. Now exactly 3 years to the date $GME on
-                  Solana is a tribute to the GameStop short squeeze, a digital
-                  monument to the sheer force of collective belief and the power
+                  In January of 2021 the GME short squeeze rocked the world, and
+                  with it changed the face of retail investing. Fast forward 3
+                  years later, and $GME on Solana is a tribute to the GameStop
+                  saga, a sheer digital force of collective belief and the power
                   of the underdog.
                 </p>
               </div>

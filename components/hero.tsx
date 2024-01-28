@@ -58,16 +58,8 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                In the shadow of a financial rebellion that shook the very
-                foundations of Wall Street, the spirit of defiance lives on,
-                morphing into a digital phoenix that rises from the ashes of the
-                past. As the calendar marks the third anniversary of the
-                GameStop short squeeze saga, a new emblem of resistance is born,
-                etched into the very fabric of the blockchain. Enter the $GME
-                Solana memecoin, a token not just of value, but of a statement,
-                a reminder of the day when David stood tall against Goliath,
-                armed with nothing but unity and the will to challenge the
-                status quo.
+                The $GME Solana memecoin marks the GameStop saga anniversary,
+                showing we can stand up to the big guys together.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
