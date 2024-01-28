@@ -44,9 +44,10 @@ export default function Features() {
               This isn't just a cryptocurrency; it's a movement, a display of
               the digital community and the power of the underdog. Born on the
               Solana blockchain, known for its lightning-fast transactions and
-              pioneering spirit, the $GME Memecoin embodies the essence of that
-              historic rebellion against financial titans, channeling the raw
-              energy and incredible support that defined the GameStop mania.
+              pioneering spirit, the <strong>$GME</strong> Memecoin embodies the
+              essence of that historic rebellion against financial titans,
+              channeling the raw energy and incredible support that defined the
+              GameStop mania.
             </p>
           </div>
 
@@ -64,9 +65,9 @@ export default function Features() {
                 <p className="text-xl text-gray-300">
                   In January of 2021 the GameStop short squeeze rocked the
                   world, and with it changed the face of retail investing. Fast
-                  forward 3 years later, and $GME on Solana is a tribute to the
-                  GameStop saga, a sheer digital force of collective belief and
-                  the power of the underdog.
+                  forward 3 years later, and <strong>$GME</strong> on Solana is
+                  a tribute to the GameStop saga, a sheer digital force of
+                  collective belief and the power of the underdog.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -91,7 +92,8 @@ export default function Features() {
                       Wall Street screwed the normies, and the normies screwed
                       it right back. The GameStop short squeeze was a watershed
                       in a new era of financial rebellion, a moment when the
-                      little guy had the big guy on the ropes. Now, the $GME
+                      little guy had the big guy on the ropes. Now, the{" "}
+                      <strong>$GME</strong> {""}
                       Memecoin is here to remind us that the power of the people
                       is greater than the people in power.
                     </div>
@@ -123,11 +125,11 @@ export default function Features() {
                       Community-Driven Movement
                     </div>
                     <div className="text-gray-400">
-                      At its core, $GME Memecoin is fueled by its community,
-                      reflecting the collective will and aspirations of its
-                      members. It's a vibe where voices are heard, and actions
-                      resonate, shaping the future of the memecoin and its
-                      underlying principles.
+                      At its core, <strong>$GME</strong> Memecoin is fueled by
+                      its community, reflecting the collective will and
+                      aspirations of its members. It's a vibe where voices are
+                      heard, and actions resonate, shaping the future of the
+                      memecoin and its underlying principles.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-zinc-700 rounded-full shadow flex-shrink-0 ml-3">
@@ -160,11 +162,11 @@ export default function Features() {
                       Decentralized and Democratic
                     </div>
                     <div className="text-gray-600">
-                      Embracing the freedom of decentralization, $GME on Solana
-                      operates with a transparent and democratic framework,
-                      ensuring that power is distributed among its holders, not
-                      centralized in the hands of a few, thereby challenging any
-                      tradfi dominance.
+                      Embracing the freedom of decentralization,{" "}
+                      <strong>$GME</strong> on Solana operates with a
+                      transparent and democratic framework, ensuring that power
+                      is distributed among its holders, not centralized in the
+                      hands of a few, thereby challenging any tradfi dominance.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-zinc-700 rounded-full shadow flex-shrink-0 ml-3">

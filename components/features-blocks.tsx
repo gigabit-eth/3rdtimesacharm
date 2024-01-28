@@ -6,7 +6,7 @@ export default function FeaturesBlocks() {
         className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-black pointer-events-none"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-b from-[#36BCE0] to-[#C436F1] transform translate-y-1/2"></div>
+      {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-b from-[#36BCE0] to-[#C436F1] transform translate-y-1/2"></div> */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
@@ -16,12 +16,13 @@ export default function FeaturesBlocks() {
               The Rebel's New Standard
             </h2>
             <p className="text-xl text-gray-300">
-              As you stand at these digital crossroads, the $GME Solana Memecoin
-              is more than a token; it's a testament to what happens when the
-              masses awaken, a beacon for those who dare to dream of a different
-              financial landscape. It's a tribute to every trader who, with a
-              click, voted against the tyranny of traditional financial
-              institutions, and a call to arms for a new generation of rebels.
+              As you stand at these digital crossroads, the{" "}
+              <strong>$GME</strong> Solana Memecoin is more than a token; it's a
+              testament to what happens when the masses awaken, a beacon for
+              those who dare to dream of a different financial landscape. It's a
+              tribute to every trader who, with a click, voted against the
+              tyranny of traditional financial institutions, and a call to arms
+              for a new generation of rebels.
             </p>
           </div>
 

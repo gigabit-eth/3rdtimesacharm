@@ -58,8 +58,9 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                The $GME Solana memecoin marks the GameStop saga anniversary,
-                showing we can stand up to the big guys together.
+                The <strong>$GME</strong> Solana memecoin marks the GameStop
+                saga anniversary, showing we can stand up to the big guys
+                together.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
