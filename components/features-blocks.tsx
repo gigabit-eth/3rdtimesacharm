@@ -54,7 +54,7 @@ export default function FeaturesBlocks() {
             <div>
               <a
                 className="btn text-black bg-gradient-to-r from-[#F8C702] to-[#FE4F29] w-full sm:w-auto sm:ml-4 border border-black"
-                href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB?chain=solana"
+                href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB/9tz6vYKiBDLYx2RnGWC5tESu4pyVE4jD6Tm56352UGte?chain=solana"
                 target="_blank"
               >
                 Buy on Birdeye
