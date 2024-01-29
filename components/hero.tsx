@@ -103,7 +103,7 @@ export default function Hero() {
             thumb={VideoThumb}
             thumbWidth={768}
             thumbHeight={432}
-            thumbAlt="Modal video thumbnail"
+            thumbAlt="Keith Gill on CNBC"
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080}
