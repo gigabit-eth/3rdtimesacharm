@@ -77,7 +77,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="https://t.me/+Y0Y6Avl76UoxNmUx"
+                  href="https://t.me/GMEonsol"
                   className="font-medium text-gray-600 hover:text-[#229ED9] px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   target="_blank"
                 >
