@@ -257,6 +257,18 @@ export default function Footer() {
             </li> */}
           </ul>
 
+          {/* New section */}
+          <div className="text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600">
+            Designed by{" "}
+            <a
+              href="https://twitter.com/wya_eth"
+              className="hover:text-red-700"
+              target="_blank"
+            >
+              @lloyd.lens
+            </a>
+          </div>
+
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
             &copy; $GME on Solana
