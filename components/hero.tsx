@@ -1,5 +1,6 @@
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
+// import VideoThumb from "@/public/images/hero-image.png";
+// import ModalVideo from "@/components/modal-video";
+import TvScreen from "@/components/tv";
 
 export default function Hero() {
   return (
@@ -99,7 +100,8 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          <ModalVideo
+          <TvScreen />
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={768}
             thumbHeight={432}
@@ -107,7 +109,7 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080}
-          />
+          /> */}
         </div>
       </div>
     </section>
