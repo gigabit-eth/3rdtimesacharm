@@ -54,9 +54,9 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
-          <div>GMEStop</div>
+          <div className="font-extrabold uppercase ">GMEStop</div>
           <div className="mt-4 md:mt-0">
-            Designed by{" "}
+            designed by{" "}
             <a
               href="https://twitter.com/wya_eth"
               className="hover:text-red-700 font-bold"
