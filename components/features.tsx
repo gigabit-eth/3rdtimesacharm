@@ -11,9 +11,14 @@ import Reddit from "@/public/images/reddit.jpg";
 import Stand from "@/public/images/stand.jpg";
 
 export default function Features() {
+  const observer = useRef<IntersectionObserver>();
   const [tab, setTab] = useState<number>(1);
 
   const tabs = useRef<HTMLDivElement>(null);
+
+  const section1Ref = useRef<HTMLDivElement>(null);
+  const section2Ref = useRef<HTMLDivElement>(null);
+  const section3Ref = useRef<HTMLDivElement>(null);
 
   const heightFix = () => {
     if (tabs.current && tabs.current.parentElement)
@@ -21,6 +26,14 @@ export default function Features() {
   };
 
   useEffect(() => {
+    observer.current = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setTab(1);
+        }
+      },
+      { threshold: 0.5 }
+    );
     heightFix();
   }, []);
 
@@ -230,7 +243,7 @@ export default function Features() {
                   <Transition
                     show={tab === 2}
                     appear={true}
-                    className="w-full"
+                    className="w-full md:mb-auto"
                     enter="transition ease-in-out duration-700 transform order-first"
                     enterFrom="opacity-0 translate-y-16"
                     enterTo="opacity-100 translate-y-0"

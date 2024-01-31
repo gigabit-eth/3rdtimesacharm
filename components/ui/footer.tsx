@@ -18,6 +18,7 @@ export default function Footer() {
                     href="https://t.me/GMEonsol"
                     className="flex justify-center items-center text-gray-600 hover:text-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                     aria-label="Telegram"
+                    target="_blank"
                   >
                     {/* Telegram SVG icon */}
                     <svg
@@ -37,6 +38,7 @@ export default function Footer() {
                     href="https://twitter.com/gmecoinsol"
                     className="flex justify-center items-center text-gray-600 hover:text-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                     aria-label="Twitter"
+                    target="_blank"
                   >
                     {/* Twitter SVG icon */}
                     <svg
@@ -56,7 +58,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
           <div className="font-extrabold lowercase ">GMEStop</div>
           <div className="mt-4 md:mt-0">
-            designed by{" "}
+            built by{" "}
             <a
               href="https://twitter.com/wya_eth"
               className="hover:text-red-700 font-bold"

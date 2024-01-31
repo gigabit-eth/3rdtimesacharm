@@ -1,3 +1,7 @@
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-7JQ3E7DQTJ");
+
 export const metadata = {
   title: "$GME on Solana",
   description: "They Can't Halt This One.",
