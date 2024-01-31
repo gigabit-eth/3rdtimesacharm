@@ -42,7 +42,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-12"
               data-aos="zoom-y-out"
             >
               <span className="text-white">Wall St. {""}</span>
@@ -55,7 +55,7 @@ export default function Hero() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-lg text-gray-300 mb-8"
+                className="text-lg text-gray-300"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
@@ -63,7 +63,7 @@ export default function Hero() {
                 saga anniversary, showing we can stand up to the big guys
                 together.
               </p>
-              <div
+              {/* <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
@@ -95,21 +95,12 @@ export default function Hero() {
                     Buy on Birdeye
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* Hero image */}
           <TvScreen />
-          {/* <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Keith Gill on CNBC"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          /> */}
         </div>
       </div>
     </section>
