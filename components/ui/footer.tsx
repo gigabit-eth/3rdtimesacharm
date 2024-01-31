@@ -15,23 +15,6 @@ export default function Footer() {
                 {/* Twitter */}
                 <li className="mb-4 md:mb-0">
                   <a
-                    href="https://twitter.com/gmecoinsol"
-                    className="flex justify-center items-center text-gray-600 hover:text-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
-                    aria-label="Twitter"
-                  >
-                    {/* Twitter SVG icon */}
-                    <svg
-                      className="w-8 h-8 fill-current"
-                      viewBox="0 0 32 32"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
-                    </svg>
-                  </a>
-                </li>
-                {/* Telegram */}
-                <li className="mb-4 md:mb-0 md:ml-4 md:mt-2">
-                  <a
                     href="https://t.me/GMEonsol"
                     className="flex justify-center items-center text-gray-600 hover:text-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                     aria-label="Telegram"
@@ -48,18 +31,35 @@ export default function Footer() {
                     </svg>
                   </a>
                 </li>
+                {/* Telegram */}
+                <li className="mb-4 md:mb-0 md:ml-4 md:mt-2">
+                  <a
+                    href="https://twitter.com/gmecoinsol"
+                    className="flex justify-center items-center text-gray-600 hover:text-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                    aria-label="Twitter"
+                  >
+                    {/* Twitter SVG icon */}
+                    <svg
+                      className="w-8 h-8 fill-current"
+                      viewBox="0 0 32 32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
-          <div>$GME on Solana</div>
+          <div>GMEStop</div>
           <div className="mt-4 md:mt-0">
             Designed by{" "}
             <a
               href="https://twitter.com/wya_eth"
-              className="hover:text-red-700"
+              className="hover:text-red-700 font-bold"
               target="_blank"
               rel="noreferrer"
             >
