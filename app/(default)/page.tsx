@@ -26,8 +26,13 @@ export default function Home() {
       gtmId: "GTM-KLB2GV6V",
     };
 
-    TagManager.initialize(tagManagerArgs);
+    import("react-gtm-module")
+      .then((TagManager) => {
+        TagManager.default.initialize(tagManagerArgs);
+      })
+      .catch((err) => console.error("Failed to load gtm-module", err));
   }, []);
+
   return (
     <>
       <Hero />
