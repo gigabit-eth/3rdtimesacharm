@@ -25,9 +25,9 @@ export default function HowToBuy() {
             </h2>
             <p className="text-xl text-gray-300">
               This movement is different, there will be no halts, no
-              restrictions, no market manipulation. The <strong>$GME</strong>{" "}
-              Solana memecoin is 100% decentralized and 100% community owned. We
-              are the new standard.
+              restrictions, no market manipulation. The <strong>$GME</strong>
+              Stop Solana memecoin is 100% decentralized and 100% community
+              owned. We are the new standard.
             </p>
           </div>
 
@@ -307,7 +307,7 @@ export default function HowToBuy() {
                 Step 6
               </h4>
               <p className="text-gray-400 text-center">
-                Enjoy the <strong>$GME</strong> ride to the moon! we early!
+                Enjoy the <strong>$GME</strong>Stop ride to the moon! we early!
               </p>
             </div>
           </div>

@@ -59,43 +59,10 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                The <strong>$GME</strong> Solana memecoin marks the GameStop
-                saga anniversary, showing we can stand up to the big guys
-                together.
+                The <strong>$GME</strong>Stop memecoin pays homage to the
+                GameStop saga anniversary, showing we can stand up to the big
+                guys together.
               </p>
-              {/* <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
-                data-aos="zoom-y-out"
-                data-aos-delay="300"
-              >
-                <div>
-                  <a
-                    className="btn text-black bg-gradient-to-r from-[#0CBFED] to-[#C7F183] w-full mb-4 sm:w-auto sm:mb-0 border border-black"
-                    href="https://jup.ag/swap/SOL-GME_8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-                    target="_blank"
-                  >
-                    Buy on Jupiter
-                  </a>
-                </div>
-                <div>
-                  <a
-                    className="btn text-black bg-gradient-to-r from-[#36BCE0] to-[#C436F1] w-full sm:w-auto sm:ml-4 mb-4 sm:mb-0 border-black border"
-                    href="https://raydium.io/swap/?outputCurrency=8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-                    target="_blank"
-                  >
-                    Buy on Raydium
-                  </a>
-                </div>
-                <div>
-                  <a
-                    className="btn text-black bg-gradient-to-r from-[#F8C702] to-[#FE4F29] w-full sm:w-auto sm:ml-4 border border-black"
-                    href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB/9tz6vYKiBDLYx2RnGWC5tESu4pyVE4jD6Tm56352UGte?chain=solana"
-                    target="_blank"
-                  >
-                    Buy on Birdeye
-                  </a>
-                </div>
-              </div> */}
             </div>
           </div>
 

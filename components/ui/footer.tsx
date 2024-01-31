@@ -57,16 +57,16 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
           <div className="font-extrabold lowercase ">GMEStop</div>
-          <div className="mt-4 md:mt-0">
-            built by{" "}
-            <a
+          <div className="mt-4 md:mt-0 font-mono">
+            20/24{" "}
+            {/* <a
               href="https://twitter.com/wya_eth"
               className="hover:text-red-700 font-bold"
               target="_blank"
               rel="noreferrer"
             >
               wya.eth
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

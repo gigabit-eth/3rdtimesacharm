@@ -57,8 +57,8 @@ export default function Features() {
               This isn't just a cryptocurrency; it's a movement, a display of
               the digital community and the power of the underdog. Born on the
               Solana blockchain, known for its lightning-fast transactions and
-              pioneering spirit, the <strong>$GME</strong> Memecoin embodies the
-              essence of that historic rebellion against financial titans,
+              pioneering spirit, the <strong>$GME</strong>Stop Memecoin embodies
+              the essence of that historic rebellion against financial titans,
               channeling the raw energy and incredible support that defined the
               GameStop mania.
             </p>
@@ -78,8 +78,8 @@ export default function Features() {
                 <p className="text-xl text-gray-300">
                   In January of 2021 the GameStop short squeeze rocked the
                   world, and with it changed the face of retail investing. Fast
-                  forward 3 years later, and <strong>$GME</strong> on Solana is
-                  a tribute to the GameStop saga, a sheer digital force of
+                  forward 3 years later, and <strong>$GME</strong>Stop on Solana
+                  is a tribute to the GameStop saga, a sheer digital force of
                   collective belief and the power of the underdog.
                 </p>
               </div>
@@ -106,7 +106,7 @@ export default function Features() {
                       it right back. The GameStop short squeeze was a watershed
                       in a new era of financial rebellion, a moment when the
                       little guy had the big guy on the ropes. Now, the{" "}
-                      <strong>$GME</strong> {""}
+                      <strong>$GME</strong>Stop {""}
                       Memecoin is here to remind us that the power of the people
                       is greater than the people in power.
                     </div>
@@ -138,10 +138,10 @@ export default function Features() {
                       Community-Driven Movement
                     </div>
                     <div className="text-gray-400">
-                      At its core, <strong>$GME</strong> Memecoin is fueled by
-                      its community, reflecting the collective will and
-                      aspirations of its members. It's a vibe where voices are
-                      heard, and actions resonate, shaping the future of the
+                      At its core, the <strong>$GME</strong>Stop Memecoin is
+                      fueled by its community, reflecting the collective will
+                      and aspirations of its members. It's a vibe where voices
+                      are heard, and actions resonate, shaping the future of the
                       memecoin and its underlying principles.
                     </div>
                   </div>
@@ -176,7 +176,7 @@ export default function Features() {
                     </div>
                     <div className="text-gray-600">
                       Embracing the freedom of decentralization,{" "}
-                      <strong>$GME</strong> on Solana operates with a
+                      <strong>$GME</strong>Stop on Solana operates with a
                       transparent and democratic framework, ensuring that power
                       is distributed among its holders, not centralized in the
                       hands of a few, thereby challenging any tradfi dominance.

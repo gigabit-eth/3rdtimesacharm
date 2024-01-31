@@ -17,12 +17,12 @@ export default function FeaturesBlocks() {
             </h2>
             <p className="text-xl text-gray-300">
               As you stand at these digital crossroads, the{" "}
-              <strong>$GME</strong> Solana Memecoin is more than a token; it's a
-              testament to what happens when the masses awaken, a beacon for
-              those who dare to dream of a different financial landscape. It's a
-              tribute to every trader who, with a click, voted against the
-              tyranny of traditional financial institutions, and a call to arms
-              for a new generation of rebels.
+              <strong>$GME</strong>Stop Memecoin on Solana is more than a token;
+              it's a testament to what happens when the masses awaken, a beacon
+              for those who dare to dream of a different financial landscape.
+              It's a tribute to every trader who, with a click, voted against
+              the tyranny of traditional financial institutions, and a call to
+              arms for a new generation of rebels.
             </p>
           </div>
 
