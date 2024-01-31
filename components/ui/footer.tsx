@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
-          <div className="font-extrabold uppercase ">GMEStop</div>
+          <div className="font-extrabold lowercase ">GMEStop</div>
           <div className="mt-4 md:mt-0">
             designed by{" "}
             <a
