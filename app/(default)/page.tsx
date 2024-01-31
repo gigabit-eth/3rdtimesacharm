@@ -1,6 +1,10 @@
-import ReactGA from "react-ga4";
+import TagManager from "react-gtm-module";
 
-ReactGA.initialize("G-7JQ3E7DQTJ");
+const tagManagerArgs = {
+  gtmId: "GTM-KLB2GV6V",
+};
+
+TagManager.initialize(tagManagerArgs);
 
 export const metadata = {
   title: "$GMEStop on Solana",
