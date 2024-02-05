@@ -92,15 +92,14 @@ export default function Footer() {
             </a>
           </div>
           <div className="mt-4 md:mt-0 font-mono">
-            20/24{" "}
-            {/* <a
+            <a
               href="https://twitter.com/wya_eth"
               className="hover:text-red-700 font-bold"
               target="_blank"
               rel="noreferrer"
             >
               wya.eth
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
