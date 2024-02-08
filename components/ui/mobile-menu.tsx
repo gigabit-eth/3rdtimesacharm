@@ -124,7 +124,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="https://t.me/GMEonsol"
+                href="https://t.me/GMEONSOL"
                 className="btn-sm text-white bg-blue-800 hover:bg-gray-800 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >

@@ -15,7 +15,7 @@ export default function Footer() {
                 {/* Twitter */}
                 <li className="mb-4 md:mb-0">
                   <a
-                    href="https://t.me/GME_ON_SOL"
+                    href="https://t.me/GMEONSOL"
                     className="flex justify-center items-center text-gray-600 hover:text-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                     aria-label="Telegram"
                     target="_blank"
