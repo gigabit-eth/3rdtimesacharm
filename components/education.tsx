@@ -164,7 +164,7 @@ export default function Education() {
                   Phantom Wallet Security
                 </h4>
                 <p className="text-gray-600 text-center text-sm">
-                  Basic wallet security, scammer/hacker attacks, handle spam
+                  Basic wallet security, scammer/hacker attacks, avoid spam
                   coins & nfts
                 </p>
               </div>

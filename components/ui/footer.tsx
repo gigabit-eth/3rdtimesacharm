@@ -80,25 +80,15 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
-          <div className="font-extrabold lowercase ">
-            GMEStop |{" "}
+          <div className="font-extrabold uppercase">GMEStop 🎮 </div>
+          <div className="mt-4 md:mt-0 font-mono">
             <a
               href="https://gmestop.notion.site/gmestop/Brand-Kit-9349e52130ea48f1b07c00aecff5a7b6"
-              className="hover:text-red-700 font-extrabold lowercase"
+              className="hover:text-white font-extrabold lowercase"
               target="_blank"
               rel="noreferrer"
             >
               brandkit
-            </a>
-          </div>
-          <div className="mt-4 md:mt-0 font-mono">
-            <a
-              href="https://twitter.com/wya_eth"
-              className="hover:text-red-700 font-bold"
-              target="_blank"
-              rel="noreferrer"
-            >
-              wya.eth
             </a>
           </div>
         </div>
