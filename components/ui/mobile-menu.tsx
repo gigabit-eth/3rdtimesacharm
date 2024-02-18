@@ -75,7 +75,7 @@ export default function MobileMenu() {
           <ul className="px-5 py-2">
             <li>
               <Link
-                href="https://dexscreener.com/solana/9tz6vykibdlyx2rngwc5tesu4pyve4jd6tm56352ugte"
+                href="https://fraudon.wallstsucks.lol"
                 className="btn-sm text-white bg-[#f68a24] hover:bg-[#ffa652] w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
