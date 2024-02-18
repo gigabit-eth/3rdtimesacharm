@@ -1,6 +1,11 @@
+import dynamic from "next/dynamic";
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
-import ReactTwitchEmbedVideo from "react-twitch-embed-video";
+
+const ReactTwitchEmbedVideo = dynamic(
+  () => import("react-twitch-embed-video"),
+  { ssr: false } // This will prevent the component from being rendered on the server.
+);
 
 export default function TvScreen() {
   return (
