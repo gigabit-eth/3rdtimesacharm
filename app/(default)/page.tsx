@@ -6,6 +6,8 @@ import FeaturesBlocks from "@/components/features-blocks";
 import Testimonials from "@/components/testimonials";
 import Newsletter from "@/components/newsletter";
 import HowToBuy from "@/components/buy";
+import Education from "@/components/education";
+import Dictionary from "@/components/dictionary";
 
 export default function Home() {
   useEffect(() => {
@@ -26,8 +28,10 @@ export default function Home() {
       <Features />
       <HowToBuy />
       <FeaturesBlocks />
+      <Education />
+      <Dictionary />
       {/* <Testimonials /> */}
-      {/* <Newsletter /> */}
+      <Newsletter />
     </>
   );
 }

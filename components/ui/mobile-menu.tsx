@@ -76,21 +76,19 @@ export default function MobileMenu() {
             <li>
               <Link
                 href="https://dexscreener.com/solana/9tz6vykibdlyx2rngwc5tesu4pyve4jd6tm56352ugte"
+                className="btn-sm text-white bg-[#f68a24] hover:bg-[#ffa652] w-full my-2"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <span>Blog</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://dexscreener.com/solana/9tz6vykibdlyx2rngwc5tesu4pyve4jd6tm56352ugte"
                 className="btn-sm text-white bg-green-600 hover:bg-[#35c870] w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
                 <span>Chart</span>
-                {/* <svg
-                  className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1"
-                  viewBox="0 0 12 12"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                    fill="#999"
-                    fillRule="nonzero"
-                  />
-                </svg> */}
               </Link>
             </li>
             <li>
@@ -100,17 +98,15 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
               >
                 <span>Headbands</span>
-                {/* <svg
-                  className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1"
-                  viewBox="0 0 12 12"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                    fill="#999"
-                    fillRule="nonzero"
-                  />
-                </svg> */}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://t.me/GMEONSOL"
+                className="btn-sm text-white bg-blue-800 hover:bg-gray-800 w-full my-2"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <span>Telegram</span>
               </Link>
             </li>
             <li>
@@ -124,22 +120,29 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="https://t.me/GMEONSOL"
-                className="btn-sm text-white bg-blue-800 hover:bg-gray-800 w-full my-2"
+                href="#"
+                className="btn-sm text-white bg-[#DB417D] hover:bg-gray-800 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
-                <span>Telegram</span>
-                {/* <svg
-                  className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1"
-                  viewBox="0 0 12 12"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                    fill="#999"
-                    fillRule="nonzero"
-                  />
-                </svg> */}
+                <span>Instagram</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="btn-sm text-white bg-[#8C44F8] hover:bg-gray-800 w-full my-2"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <span>Twitch</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="btn-sm text-white bg-[#F72A53] hover:bg-gray-800 w-full my-2"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <span>TikTok</span>
               </Link>
             </li>
           </ul>
