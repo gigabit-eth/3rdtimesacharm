@@ -120,7 +120,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="#"
+                href="https://www.instagram.com/gmecoinsol"
                 className="btn-sm text-white bg-[#DB417D] hover:bg-gray-800 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
@@ -129,7 +129,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="#"
+                href="https://www.twitch.tv/gmecoinsol"
                 className="btn-sm text-white bg-[#8C44F8] hover:bg-gray-800 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
@@ -138,7 +138,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="#"
+                href="https://www.tiktok.com/@gmecoinsol"
                 className="btn-sm text-white bg-[#F72A53] hover:bg-gray-800 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
