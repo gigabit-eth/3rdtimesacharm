@@ -143,7 +143,7 @@ export default function Header() {
                           <a
                             key={item.name}
                             href={item.href}
-                            className="block p-2 hover:text-red-600 text-center md:flex md:flex-col"
+                            className="block p-2 hover:text-gray-100 text-center md:flex md:flex-col"
                           >
                             {item.name}
                           </a>
