@@ -1,5 +1,6 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
+import ReactTwitchEmbedVideo from "react-twitch-embed-video";
 
 export default function TvScreen() {
   return (
@@ -9,7 +10,7 @@ export default function TvScreen() {
           id="monitorscreen"
           style={{ backgroundImage: `url(${VideoThumb})` }}
         >
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1200}
             thumbHeight={600}
@@ -17,7 +18,8 @@ export default function TvScreen() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080}
-          />
+          /> */}
+          <ReactTwitchEmbedVideo channel="gmecoinsol" width={"100%"} />
         </div>
       </div>
     </div>

@@ -20,6 +20,7 @@
     "react-dom": "18.2.0",
     "react-ga4": "^2.1.0",
     "react-gtm-module": "^2.0.11",
+    "react-twitch-embed-video": "^3.0.3",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
