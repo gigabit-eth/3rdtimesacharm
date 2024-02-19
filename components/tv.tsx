@@ -17,7 +17,7 @@ export default function TvScreen() {
           id="monitorscreen"
           style={{ backgroundImage: `url(${VideoThumb})` }}
         >
-          {currentHour >= 6 && currentHour < 20 ? (
+          {currentHour >= 8 && currentHour < 20 ? (
             <ReactTwitchEmbedVideo
               channel="gmecoinsol"
               width={"100%"}
