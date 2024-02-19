@@ -83,12 +83,12 @@ export default function Footer() {
           <div className="font-extrabold uppercase">GMEStop 🎮 </div>
           <div className="mt-4 md:mt-0 font-mono">
             <a
-              href="https://gmestop.notion.site/gmestop/Brand-Kit-9349e52130ea48f1b07c00aecff5a7b6"
+              href="https://twitter.com/wya_eth"
               className="hover:text-white font-extrabold lowercase"
               target="_blank"
               rel="noreferrer"
             >
-              brandkit
+              wya.eth
             </a>
           </div>
         </div>

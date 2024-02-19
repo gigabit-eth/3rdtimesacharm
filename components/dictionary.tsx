@@ -118,7 +118,7 @@ const faqs = [
   },
   {
     question: "Shill",
-    answer: "Promoting a crypto project for personal gain, often misleadingly.",
+    answer: "Promoting a crypto project for personal gain.",
   },
   {
     question: "Stablecoin",
