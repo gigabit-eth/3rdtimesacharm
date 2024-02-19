@@ -119,7 +119,7 @@ export default function HowToBuy() {
                 Install{" "}
                 <a
                   href="https://phantom.app/download"
-                  className="text-blue-500"
+                  className="text-red-600 hover:text-white"
                   target="_blank"
                 >
                   Phantom Wallet
@@ -171,7 +171,7 @@ export default function HowToBuy() {
                 Go to{" "}
                 <a
                   href="https://jup.ag/swap/SOL-GME_8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-                  className="text-blue-500"
+                  className="text-red-600 hover:text-white"
                   target="_blank"
                 >
                   Jupiter
@@ -179,7 +179,7 @@ export default function HowToBuy() {
                 ,{" "}
                 <a
                   href="https://raydium.io/swap/?outputCurrency=8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-                  className="text-blue-500"
+                  className="text-red-600 hover:text-white"
                   target="_blank"
                 >
                   Raydium
@@ -187,7 +187,7 @@ export default function HowToBuy() {
                 or{" "}
                 <a
                   href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB/9tz6vYKiBDLYx2RnGWC5tESu4pyVE4jD6Tm56352UGte?chain=solana"
-                  className="text-blue-500"
+                  className="text-red-600 hover:text-white"
                   target="_blank"
                 >
                   Birdeye

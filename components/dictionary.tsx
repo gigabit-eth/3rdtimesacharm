@@ -161,7 +161,7 @@ export default function Dictionary() {
             done here, you can always learn more by{" "}
             <a
               href="https://t.me/GMEonsol"
-              className="font-semibold text-blue-500 hover:text-red-600"
+              className="font-semibold text-red-600 hover:text-white"
               target="_blank"
             >
               hitting the Telegram voice chat
