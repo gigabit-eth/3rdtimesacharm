@@ -107,6 +107,7 @@ export default function Header() {
                 <Link
                   href="https://headbands.wallstsucks.lol/"
                   className="font-bold uppercase text-gray-600 hover:text-[#FF0000] px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  target="_blank"
                 >
                   <span>Headbands</span>
                   <svg
@@ -144,6 +145,7 @@ export default function Header() {
                             key={item.name}
                             href={item.href}
                             className="block p-2 hover:text-gray-100 text-center md:flex md:flex-col"
+                            target={item.target}
                           >
                             {item.name}
                           </a>

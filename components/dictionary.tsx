@@ -162,6 +162,7 @@ export default function Dictionary() {
             <a
               href="https://t.me/GMEonsol"
               className="font-semibold text-blue-500 hover:text-red-600"
+              target="_blank"
             >
               hitting the Telegram voice chat
             </a>{" "}

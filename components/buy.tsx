@@ -120,6 +120,7 @@ export default function HowToBuy() {
                 <a
                   href="https://phantom.app/download"
                   className="text-blue-500"
+                  target="_blank"
                 >
                   Phantom Wallet
                 </a>{" "}
