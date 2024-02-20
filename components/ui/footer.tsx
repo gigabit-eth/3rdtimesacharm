@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="flex flex-col items-center mb-2">
               <Logo />
             </div>
-            <div className="font-bold capitalize text-gray-300">
+            <div className="capitalize text-gray-300 sm:text-sm font-semibold ">
               No affiliation to GameStop Inc - No promise of financial gain.
             </div>
             <div className="flex flex-col items-center py-4 md:py-8 border-t border-black">
