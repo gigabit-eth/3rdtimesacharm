@@ -9,6 +9,9 @@ export default function Footer() {
             <div className="flex flex-col items-center mb-2">
               <Logo />
             </div>
+            <div className="font-bold text-md lowercase text-gray-300">
+              No affiliation to GameStop Inc - No promise of financial gain.
+            </div>
             <div className="flex flex-col items-center py-4 md:py-8 border-t border-black">
               <ul className="flex flex-col items-center md:flex-row justify-center md:justify-center mb-4 md:order-1 md:mb-0 mx-auto md:mx-0">
                 {/* Social media links */}
@@ -81,6 +84,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left md:flex-grow md:mx-4 text-sm text-gray-600 mb-4 md:mb-4">
           <div className="font-extrabold uppercase">GMEStop 🎮 </div>
+          <div className="font-extrabold uppercase"></div>
           <div className="mt-4 md:mt-0 font-mono">
             <a
               href="https://twitter.com/wya_eth"
