@@ -50,7 +50,7 @@ export default function Hero() {
                 Can't{" "}
               </span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FE4A49] to-[#FED766]">
-                Stop It Now
+                Stop Us Now
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
