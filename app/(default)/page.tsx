@@ -8,6 +8,7 @@ import Newsletter from "@/components/newsletter";
 import HowToBuy from "@/components/buy";
 import Education from "@/components/education";
 import Dictionary from "@/components/dictionary";
+import Modal from "react-modal";
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,10 @@ export default function Home() {
       })
       .catch((err) => console.error("Failed to load gtm-module", err));
   }, []);
+
+  // useEffect(() => {
+  //   Modal.setAppElement("#root");
+  // }, []);
 
   return (
     <>
