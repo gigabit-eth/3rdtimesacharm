@@ -263,38 +263,40 @@ export default function Education() {
             </a>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-zinc-800 rounded shadow-xl">
-              <svg
-                className="w-16 h-16 p-1 -mt-1 mb-2"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <rect
-                    className="fill-current text-zinc-900"
-                    width="64"
-                    height="64"
-                    rx="32"
-                  />
-                  <g strokeWidth="2" strokeLinecap="square">
-                    <path
-                      className="stroke-current text-white"
-                      d="M29.714 40.358l-4.777 2.51 1.349-7.865-5.715-5.57 7.898-1.147L32 21.13l3.531 7.155 7.898 1.147L40 32.775"
+            <a href="https://forms.gle/HTFmfCZXyLHVE1De7" target="_blank">
+              <div className="relative flex flex-col items-center p-6 bg-zinc-800 rounded shadow-xl">
+                <svg
+                  className="w-16 h-16 p-1 -mt-1 mb-2"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <rect
+                      className="fill-current text-zinc-900"
+                      width="64"
+                      height="64"
+                      rx="32"
                     />
-                    <path
-                      className="stroke-current text-blue-300"
-                      d="M44.571 43.429H34.286M44.571 37.714H34.286"
-                    />
+                    <g strokeWidth="2" strokeLinecap="square">
+                      <path
+                        className="stroke-current text-white"
+                        d="M29.714 40.358l-4.777 2.51 1.349-7.865-5.715-5.57 7.898-1.147L32 21.13l3.531 7.155 7.898 1.147L40 32.775"
+                      />
+                      <path
+                        className="stroke-current text-blue-300"
+                        d="M44.571 43.429H34.286M44.571 37.714H34.286"
+                      />
+                    </g>
                   </g>
-                </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-gray-200">
-                Your Idea Here
-              </h4>
-              <p className="text-gray-600 text-center">
-                Will you create the next great $GME tutorial?
-              </p>
-            </div>
+                </svg>
+                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-gray-200">
+                  You Decide!
+                </h4>
+                <p className="text-gray-600 text-center">
+                  Tell us what the next SOL tutorial should be!
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

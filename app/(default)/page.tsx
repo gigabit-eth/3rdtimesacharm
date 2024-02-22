@@ -8,7 +8,10 @@ import Newsletter from "@/components/newsletter";
 import HowToBuy from "@/components/buy";
 import Education from "@/components/education";
 import Dictionary from "@/components/dictionary";
+import Exchange from "@/components/exchange";
+import Onramp from "@/components/onramp";
 import Modal from "react-modal";
+import Media from "@/components/media";
 
 export default function Home() {
   useEffect(() => {
@@ -31,12 +34,15 @@ export default function Home() {
     <>
       <Hero />
       <Features />
+      {/* <Onramp />
+      <Exchange /> */}
       <HowToBuy />
       <FeaturesBlocks />
       <Education />
       <Dictionary />
       {/* <Testimonials /> */}
       <Newsletter />
+      {/* <Media /> */}
     </>
   );
 }
