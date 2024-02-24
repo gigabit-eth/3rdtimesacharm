@@ -1,5 +1,5 @@
-// Purpose: Onramp section component for the landing page.
-export default function OnRamp() {
+import METEORA from "./meteora";
+export default function DLMM() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -15,37 +15,37 @@ export default function OnRamp() {
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-10">
             <h2 className="h2 mb-4 uppercase">
               <span className="text-3xl text-white font-extralight italic mr-1">
-                1.
+                3.
               </span>{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ed254e] to-[#f9dc5c]">
-                How to Buy
+                Earn Fees on
               </span>{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c6f8ff] to-[#595cff]">
-                SOL
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183]">
+                GME
               </span>
             </h2>
             <p className="text-xl text-gray-300">
-              This movement is different, there will be no halts, no
-              restrictions, no market manipulation. The <strong>$GME</strong>
-              Stop Solana memecoin is 100% decentralized and 100% community
-              owned. We are the new standard.
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
             <div className="flex justify-center mt-8">
               <a
-                href="https://phantom.app/download"
-                className="inline-block px-4 sm:px-8 py-2 text-white font-mono text-sm bg-slate-900 rounded-3xl hover:bg-slate-800 transition duration-150 ease-in-out capitalize sm:text-sm"
+                href="https://www.youtube.com/watch?v=HV-Enxuet60"
+                className="inline-block px-4 sm:px-8 py-2 text-white font-mono text-sm bg-slate-900 rounded-3xl hover:bg-slate-800 transition duration-150 ease-in-out capitalize"
                 target="_blank"
               >
-                Install <span className="text-indigo-600">Phantom Wallet</span>{" "}
-                and Come back!
+                How-to provide liquidity on Meteora
               </a>
             </div>
           </div>
 
           {/* <Partners /> */}
 
-          {/* How to buy Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none"></div>
+          {/* DLMM WIDGET PLACEHOLDER */}
+          <div className="max-w-sm mx-auto grid gap-6 items-center justify-center md:grid-cols-1 lg:grid-cols-1 md:max-w-2xl lg:max-w-none">
+            <METEORA />
+          </div>
         </div>
       </div>
     </section>

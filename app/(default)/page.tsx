@@ -12,6 +12,7 @@ import Exchange from "@/components/exchange";
 import Onramp from "@/components/onramp";
 import Modal from "react-modal";
 import Media from "@/components/media";
+import DLMM from "@/components/dlmm";
 
 export default function Home() {
   useEffect(() => {
@@ -34,10 +35,11 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      {/* <Onramp />
-      <Exchange /> */}
-      <HowToBuy />
-      <FeaturesBlocks />
+      <Onramp />
+      <Exchange />
+      <DLMM />
+      {/* <HowToBuy />
+      <FeaturesBlocks /> */}
       <Education />
       <Dictionary />
       {/* <Testimonials /> */}
