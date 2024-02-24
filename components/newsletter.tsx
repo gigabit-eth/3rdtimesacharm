@@ -111,8 +111,8 @@ export default function Newsletter() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">
-                  Want more tutorials & guides?
+                <h3 className="h3 text-white mb-2 capitalize">
+                  Want more $GME University?
                 </h3>
                 <p className="text-gray-300 text-lg mb-6">
                   Subscribe to our newsletter for updates on new guides and
