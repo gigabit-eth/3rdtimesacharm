@@ -10,10 +10,13 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="capitalize text-gray-300 sm:text-sm font-semibold ">
-              No affiliation to GameStop Inc.
+              Not affiliated, nor endorsed by GameStop Inc.
             </div>
             <div className="capitalize text-gray-300 sm:text-sm font-semibold ">
               No promise of financial gain.
+            </div>
+            <div className="capitalize text-gray-300 sm:text-sm font-semibold ">
+              DYOR
             </div>
             <div className="flex flex-col items-center py-4 md:py-8 border-t border-black">
               <ul className="flex flex-col items-center md:flex-row justify-center md:justify-center mb-4 md:order-1 md:mb-0 mx-auto md:mx-0">
