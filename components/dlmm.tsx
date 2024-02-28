@@ -21,7 +21,7 @@ export default function DLMM() {
                 Earn Fees on
               </span>{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183]">
-                GME
+                $GME
               </span>
             </h2>
             <p className="text-xl text-gray-300">

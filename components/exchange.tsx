@@ -10,8 +10,8 @@ const LiFiWidget = dynamic(
 );
 
 const widgetConfig: WidgetConfig = {
-  integrator: "gmestop",
-  fee: 0.1,
+  integrator: "gmecoin",
+  fee: 0.05,
   insurance: true,
   // tokens: {
   //   // Featured tokens appear on top of the list
@@ -37,7 +37,7 @@ const widgetConfig: WidgetConfig = {
   hiddenUI: ["appearance", "poweredBy"],
   theme: {
     palette: {
-      primary: { main: "#d90429" },
+      primary: { main: "#38b000" },
       secondary: { main: "#fff" },
     },
     shape: {
@@ -74,7 +74,7 @@ export default function FeaturesBlocks() {
               </span>{" "}
               for{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183]">
-                GME
+                $GME
               </span>
             </h2>
             <p className="text-xl text-gray-300">
@@ -96,7 +96,7 @@ export default function FeaturesBlocks() {
             data-aos-delay="300"
           >
             <div className="flex flex-col items-center justify-center w-full sm:w-1/2 sm:mr-4">
-              <LiFiWidget integrator="gmestop" config={widgetConfig} />
+              <LiFiWidget integrator="gmecoin" config={widgetConfig} />
             </div>
           </div>
         </div>

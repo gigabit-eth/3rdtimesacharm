@@ -45,7 +45,19 @@ export default function OnRamp() {
           {/* <Partners /> */}
 
           {/* How to buy Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none"></div>
+          <div
+            className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+            data-aos="zoom-y-out"
+            data-aos-delay="300"
+          >
+            <iframe
+              src="https://buy.onramper.com?apiKey=pk_prod_01HETEQF46GSK6BS5JWKDF31BT&mode=buy&defaultCrypto=sol&onlyCryptos=sol&defaultFiat=usd&onlyCryptoNetworks=solana&themeName=dark"
+              title="Onramper Widget"
+              height="630px"
+              width="420px"
+              allow="accelerometer; autoplay; camera; gyroscope; payment"
+            />
+          </div>
         </div>
       </div>
     </section>
