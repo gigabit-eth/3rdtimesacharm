@@ -5,10 +5,13 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
-import KeithGill from "@/public/images/keith-gill.gif";
+const KeithGill =
+  "https://bafybeicxkspweuagb2su5lqp2fjiebuj3kiqw6zp7lczpxhc2qqp5apvse.ipfs.nftstorage.link/";
 import Community from "@/public/images/community.jpg";
-import Reddit from "@/public/images/reddit.jpg";
-import Stand from "@/public/images/stand.jpg";
+const Reddit =
+  "https://bafkreicv76ppepdni7fk3vxcm7ivdru5xtqthqh5fve4xuuj2urmp2hfki.ipfs.nftstorage.link/";
+const Stand =
+  "https://bafkreibvyftho7ttihmvphzya2gvx3jctchuotwyzpr4zwwj6wmcokm3nq.ipfs.nftstorage.link/";
 
 export default function Features() {
   const observer = useRef<IntersectionObserver>();
