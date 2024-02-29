@@ -29,7 +29,7 @@ export default function TvScreen() {
               thumbWidth={1200}
               thumbHeight={600}
               thumbAlt="Keith Gill on CNBC"
-              video="https://bafybeif6sbmtyi3fbvlah2zr3ti4zgcab46bqdjz4eiu72kvierq6cekum.ipfs.nftstorage.link/"
+              video="/videos/video.mp4"
               videoWidth={1920}
               videoHeight={1080}
             />
