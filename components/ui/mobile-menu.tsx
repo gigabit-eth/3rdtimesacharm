@@ -94,10 +94,19 @@ export default function MobileMenu() {
             <li>
               <Link
                 href="https://headbands.wallstsucks.lol/"
-                className="btn-sm text-white bg-red-600 hover:bg-[#FF0000] w-full my-2"
+                className="btn-sm text-white bg-red-600 hover:bg-[#91908b] w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
                 <span>Headbands</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://wallstsucks.store"
+                className="btn-sm text-white bg-gradient-to-r from-slate-700 to-[#515151] w-full my-2"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <span>Merch</span>
               </Link>
             </li>
             <li>
