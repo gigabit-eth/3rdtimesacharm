@@ -59,9 +59,9 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                The <strong>$GME</strong>Stop memecoin pays homage to the
-                GameStop saga anniversary, showing we can stand up to the big
-                guys together.
+                The <strong>$GME</strong> memecoin pays homage to the GameStop
+                saga anniversary, showing we can stand up to the big guys
+                together.
               </p>
             </div>
           </div>
