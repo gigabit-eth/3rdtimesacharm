@@ -1,4 +1,14 @@
 import dynamic from "next/dynamic";
+import { LoadingIndicator } from "@/components/lifi/loading";
+
+export const LiFiWidgetNext = dynamic(
+  () =>
+    import("../components/lifi/widget").then((module) => module.Widget) as any,
+  {
+    ssr: false,
+    loading: () => <LoadingIndicator />,
+  }
+);
 
 export default function FeaturesBlocks() {
   return (
@@ -46,7 +56,7 @@ export default function FeaturesBlocks() {
             data-aos-delay="300"
           >
             <div className="flex flex-col items-center justify-center w-full sm:w-1/2 sm:mr-4">
-              {/* <LiFiWidget integrator="gmecoin" config={widgetConfig} /> */}
+              <LiFiWidgetNext />
             </div>
           </div>
         </div>

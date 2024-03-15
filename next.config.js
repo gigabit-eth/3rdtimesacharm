@@ -8,6 +8,9 @@ const nextConfig = {
       "bafybeif6sbmtyi3fbvlah2zr3ti4zgcab46bqdjz4eiu72kvierq6cekum.ipfs.nftstorage.link",
     ],
   },
+  reactStrictMode: true,
+  swcMinify: true,
+  transpilePackages: ["@lifi/widget", "@lifi/wallet-management"],
 };
 
 module.exports = nextConfig;

@@ -37,7 +37,7 @@ export default function Home() {
       <Features />
       <Onramp />
       <Exchange />
-      <DLMM />
+      {/* <DLMM /> */}
       {/* <HowToBuy />
       <FeaturesBlocks /> */}
       <Education />
