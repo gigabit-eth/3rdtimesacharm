@@ -15,10 +15,12 @@
     "@lifi/wallet-management": "^3.0.0-alpha.23",
     "@lifi/widget": "^3.0.0-alpha.34",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tanstack/react-query": "^5.28.4",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.17",
     "aos": "^3.0.0-beta.6",
+    "encoding": "^0.1.13",
     "next": "^14.0.4",
     "pino-pretty": "^10.3.1",
     "react": "18.2.0",
@@ -28,7 +30,9 @@
     "react-icons": "^5.0.1",
     "react-modal": "^3.16.1",
     "react-twitch-embed-video": "^3.0.3",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "viem": "2.x",
+    "wagmi": "^2.5.11"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
