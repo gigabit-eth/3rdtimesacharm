@@ -29,16 +29,19 @@ const widgetConfig: WidgetConfig = {
   // },
   // toChain: 10,
   // toToken: "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
-  containerStyle: {
-    // border: "1px solid rgb(234, 234, 234)",
-    borderRadius: "16px",
-  },
+  // container: {
+  //   // border: "1px solid rgb(234, 234, 234)",
+  //   borderRadius: "16px",
+  // },
   appearance: "dark",
   hiddenUI: ["appearance", "poweredBy"],
   theme: {
     palette: {
       primary: { main: "#d90429" },
       secondary: { main: "#fff" },
+    },
+    container: {
+      borderRadius: "16px",
     },
     shape: {
       borderRadius: 5,
