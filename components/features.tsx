@@ -78,8 +78,8 @@ export default function Features() {
                 <p className="text-xl text-gray-300">
                   In January of 2021 the GameStop short squeeze rocked the
                   world, and with it changed the face of retail investing. Fast
-                  forward 3 years later, and <strong>$GME</strong>Coin on Solana
-                  is a tribute to the GameStop saga, a sheer digital force of
+                  forward 3 years later, and <strong>$GME</strong> on Solana is
+                  a tribute to the GameStop saga, a sheer digital force of
                   collective belief and the power of the underdog.
                 </p>
               </div>
@@ -176,7 +176,7 @@ export default function Features() {
                     </div>
                     <div className="text-gray-600">
                       Embracing the freedom of decentralization,{" "}
-                      <strong>$GME</strong>Coin on Solana operates with a
+                      <strong>$GME</strong> on Solana operates with a
                       transparent and democratic framework, ensuring that power
                       is distributed among its holders, not centralized in the
                       hands of a few, thereby challenging any tradfi dominance.

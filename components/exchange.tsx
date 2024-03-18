@@ -1,54 +1,13 @@
 import dynamic from "next/dynamic";
-import { LiFiWidget as LiFiWidgetImport, WidgetConfig } from "@lifi/widget";
+import { LoadingIndicator } from "./lifi/loadingIndicator";
 
-const LiFiWidget = dynamic(
-  () =>
-    import("@lifi/widget").then(
-      (mod) => mod.LiFiWidget as typeof LiFiWidgetImport
-    ),
-  { ssr: false } // This will load the module only on client-side
+const LiFiWidgetNext = dynamic(
+  () => import("./lifi/widget").then((module) => module.Widget) as any,
+  {
+    ssr: false,
+    loading: () => <LoadingIndicator />,
+  }
 );
-
-const widgetConfig: WidgetConfig = {
-  integrator: "gmecoin",
-  fee: 0.05,
-  insurance: true,
-  // tokens: {
-  //   // Featured tokens appear on top of the list
-  //   featured: [
-  //     {
-  //       address: "0x2fd6c9b869dea106730269e13113361b684f843a",
-  //       symbol: "CHH",
-  //       decimals: 9,
-  //       chainId: 56,
-  //       name: "Chihuahua",
-  //       logoURI:
-  //         "https://s2.coinmarketcap.com/static/img/coins/64x64/21334.png",
-  //     },
-  //   ],
-  // },
-  // toChain: 10,
-  // toToken: "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
-  containerStyle: {
-    // border: "1px solid rgb(234, 234, 234)",
-    borderRadius: "16px",
-  },
-  appearance: "dark",
-  hiddenUI: ["appearance", "poweredBy"],
-  theme: {
-    palette: {
-      primary: { main: "#38b000" },
-      secondary: { main: "#fff" },
-    },
-    shape: {
-      borderRadius: 5,
-      borderRadiusSecondary: 5,
-    },
-    typography: {
-      fontFamily: "Poppins, sans-serif",
-    },
-  },
-};
 
 export default function FeaturesBlocks() {
   return (
@@ -65,9 +24,9 @@ export default function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#ed254e] to-[#f9dc5c] uppercase">
-              <span className="text-3xl text-white font-light italic mr-1 ">
+              {/* <span className="text-3xl text-white font-light italic mr-1 ">
                 2.
-              </span>{" "}
+              </span>{" "} */}
               Swap{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c6f8ff] to-[#595cff]">
                 SOL
@@ -79,7 +38,7 @@ export default function FeaturesBlocks() {
             </h2>
             <p className="text-xl text-gray-300">
               As you stand at these digital crossroads, the{" "}
-              <strong>$GME</strong>Stop Memecoin on Solana is more than a token;
+              <strong>$GME</strong> Memecoin on Solana is more than a token;
               it's a testament to what happens when the masses awaken, a beacon
               for those who dare to dream of a different financial landscape.
               It's a tribute to every trader who, with a click, voted against
@@ -96,7 +55,7 @@ export default function FeaturesBlocks() {
             data-aos-delay="300"
           >
             <div className="flex flex-col items-center justify-center w-full sm:w-1/2 sm:mr-4">
-              <LiFiWidget integrator="gmecoin" config={widgetConfig} />
+              <LiFiWidgetNext />
             </div>
           </div>
         </div>
