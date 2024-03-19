@@ -53,6 +53,7 @@ export const Widget = () => {
           // fee: 0.04,
           insurance: true,
           toChain: 1151111081099710,
+          appearance: "dark",
           hiddenUI: ["appearance", "poweredBy"],
         }}
         integrator="gmeonsol"
