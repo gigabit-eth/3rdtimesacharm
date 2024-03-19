@@ -50,12 +50,12 @@ export const Widget = () => {
               borderRadius: "16px",
             },
           },
-          fee: 0.04,
+          // fee: 0.04,
           insurance: true,
           toChain: 1151111081099710,
           hiddenUI: ["appearance", "poweredBy"],
         }}
-        integrator="0x0C462f9886A2aCf328464Ea9160Ee3290E11377a"
+        integrator="gmeonsol"
       />
     )
   );
