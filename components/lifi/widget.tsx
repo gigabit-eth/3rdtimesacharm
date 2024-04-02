@@ -5,6 +5,9 @@ import type {
 } from "@lifi/widget";
 import { useWidgetEvents, WidgetEvent, LiFiWidget } from "@lifi/widget";
 import { useEffect, useState } from "react";
+import { QueryClient, QueryClientProvider } from "react-query";
+
+const queryClient = new QueryClient();
 
 export const Widget = () => {
   const widgetEvents = useWidgetEvents();
@@ -41,23 +44,25 @@ export const Widget = () => {
   }, [widgetEvents]);
 
   return (
-    mounted && (
-      <LiFiWidget
-        config={{
-          variant: "wide",
-          theme: {
-            container: {
-              borderRadius: "16px",
+    <QueryClientProvider client={queryClient}>
+      {
+        <LiFiWidget
+          config={{
+            variant: "wide",
+            theme: {
+              container: {
+                borderRadius: "16px",
+              },
             },
-          },
-          // fee: 0.04,
-          insurance: true,
-          toChain: 1151111081099710,
-          appearance: "dark",
-          hiddenUI: ["appearance", "poweredBy"],
-        }}
-        integrator="gmeonsol"
-      />
-    )
+            fee: 0.04,
+            insurance: true,
+            toChain: 1151111081099710,
+            appearance: "dark",
+            hiddenUI: ["appearance", "poweredBy"],
+          }}
+          integrator="gmeonsol"
+        />
+      }
+    </QueryClientProvider>
   );
 };
