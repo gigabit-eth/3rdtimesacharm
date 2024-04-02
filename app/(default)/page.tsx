@@ -36,10 +36,10 @@ export default function Home() {
       <Hero />
       <Features />
       {/* <Onramp /> */}
+      <HowToBuy />
       <Exchange />
       {/* <DLMM /> */}
-      {/* <HowToBuy />
-      <FeaturesBlocks /> */}
+      {/* <FeaturesBlocks /> */}
       <Education />
       <Dictionary />
       {/* <Testimonials /> */}

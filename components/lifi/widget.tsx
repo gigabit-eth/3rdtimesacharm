@@ -49,16 +49,29 @@ export const Widget = () => {
         <LiFiWidget
           config={{
             variant: "wide",
+            tokens: {
+              featured: [
+                {
+                  address: "8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB",
+                  symbol: "GME",
+                  decimals: 9,
+                  chainId: 1151111081099710,
+                  name: "GameStop",
+                  logoURI:
+                    "https://dd.dexscreener.com/ds-data/tokens/solana/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB.png?size=lg&key=0407b1",
+                },
+              ],
+            },
             theme: {
               container: {
                 borderRadius: "16px",
               },
             },
-            fee: 0.04,
+            fee: 0.05,
             insurance: true,
             toChain: 1151111081099710,
             appearance: "dark",
-            hiddenUI: ["appearance", "poweredBy"],
+            hiddenUI: ["appearance"],
           }}
           integrator="gmeonsol"
         />

@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { LoadingIndicator } from "./lifi/loadingIndicator";
+import { useEffect, useState } from "react";
 
 const LiFiWidgetNext = dynamic(
   () => import("./lifi/widget").then((module) => module.Widget) as any,
@@ -10,6 +11,23 @@ const LiFiWidgetNext = dynamic(
 );
 
 export default function FeaturesBlocks() {
+  const [copySuccess, setCopySuccess] = useState("");
+
+  const copyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(
+        "8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
+      );
+      setCopySuccess("Copied!");
+    } catch (err) {
+      setCopySuccess("Failed to copy!");
+    }
+
+    setTimeout(() => {
+      setCopySuccess("");
+    }, 1500); // Clear the message after 5 seconds
+  };
+
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -45,6 +63,16 @@ export default function FeaturesBlocks() {
               the tyranny of traditional financial institutions, and a call to
               arms for a new generation of rebels.
             </p>
+            <a
+              onClick={copyToClipboard}
+              className="inline-block px-4 sm:px-8 py-2 text-white font-mono text-sm bg-slate-900 rounded-3xl hover:bg-slate-800 transition duration-150 ease-in-out capitalize sm:text-sm mt-6 sm:mt-10"
+              target="_blank"
+            >
+              <span className="text-gray-300">
+                8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB
+              </span>{" "}
+            </a>
+            <p className="text-gray-300">{copySuccess}</p>
           </div>
 
           {/* Items */}

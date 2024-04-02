@@ -20,7 +20,7 @@ export default function HowToBuy() {
                 How to Buy
               </span>{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183]">
-                $GME
+                $SOL
               </span>
             </h2>
             <p className="text-xl text-gray-300">
@@ -168,31 +168,7 @@ export default function HowToBuy() {
                 Step 3
               </h4>
               <p className="text-gray-400 text-center">
-                Go to{" "}
-                <a
-                  href="https://jup.ag/swap/SOL-GME_8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-                  className="text-red-600 hover:text-white"
-                  target="_blank"
-                >
-                  Jupiter
-                </a>{" "}
-                ,{" "}
-                <a
-                  href="https://raydium.io/swap/?outputCurrency=8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-                  className="text-red-600 hover:text-white"
-                  target="_blank"
-                >
-                  Raydium
-                </a>{" "}
-                or{" "}
-                <a
-                  href="https://birdeye.so/token/8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB/9tz6vYKiBDLYx2RnGWC5tESu4pyVE4jD6Tm56352UGte?chain=solana"
-                  className="text-red-600 hover:text-white"
-                  target="_blank"
-                >
-                  Birdeye
-                </a>{" "}
-                and connect your Phantom wallet
+                Come back here, and connect your Phantom wallet
               </p>
             </div>
 
@@ -235,8 +211,8 @@ export default function HowToBuy() {
                 Step 4
               </h4>
               <p className="text-gray-400 text-center">
-                Swap $SOL for <strong>$GME</strong> using the correct contract
-                adress
+                Copy the <strong>$GME</strong> contract address below and paste
+                it in the "To" field
               </p>
             </div>
 
