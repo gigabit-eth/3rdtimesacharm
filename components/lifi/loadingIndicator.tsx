@@ -7,7 +7,7 @@ export const LoadingIndicator = () => {
         placeItems: "center",
       }}
     >
-      <p className="text-white text-2xl">Loading...</p>
+      <p className="text-white text-3xl font-mono italic">Loading...</p>
     </div>
   );
 };

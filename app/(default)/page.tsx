@@ -33,17 +33,17 @@ export default function Home() {
 
   return (
     <>
-      <Hero />
-      <Features />
+      {/* <Hero />
+      <Features /> */}
       {/* <Onramp /> */}
-      <HowToBuy />
+      {/* <HowToBuy /> */}
       <Exchange />
       {/* <DLMM /> */}
       {/* <FeaturesBlocks /> */}
-      <Education />
-      <Dictionary />
+      {/* <Education />
+      <Dictionary /> */}
       {/* <Testimonials /> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
       {/* <Media /> */}
     </>
   );

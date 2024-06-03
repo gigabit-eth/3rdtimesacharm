@@ -40,39 +40,20 @@ export default function FeaturesBlocks() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 mt-24">
             <h2 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#ed254e] to-[#f9dc5c] uppercase">
-              {/* <span className="text-3xl text-white font-light italic mr-1 ">
-                2.
-              </span>{" "} */}
               Swap{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c6f8ff] to-[#595cff]">
-                SOL
+                Anything
               </span>{" "}
               for{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183]">
                 $GME
               </span>
             </h2>
-            <p className="text-xl text-gray-300">
-              As you stand at these digital crossroads, the{" "}
-              <strong>$GME</strong> Memecoin on Solana is more than a token;
-              it's a testament to what happens when the masses awaken, a beacon
-              for those who dare to dream of a different financial landscape.
-              It's a tribute to every trader who, with a click, voted against
-              the tyranny of traditional financial institutions, and a call to
-              arms for a new generation of rebels.
+            <p className="text-2xl text-gray-300 italic">
+              Across 20+ blockchains & thousands of tokens!
             </p>
-            <a
-              onClick={copyToClipboard}
-              className="inline-block px-4 sm:px-8 py-2 text-white font-mono text-sm bg-slate-900 rounded-3xl hover:bg-slate-800 transition duration-150 ease-in-out capitalize sm:text-sm mt-6 sm:mt-10"
-              target="_blank"
-            >
-              <span className="text-gray-300">
-                8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB
-              </span>{" "}
-            </a>
-            <p className="text-gray-300">{copySuccess}</p>
           </div>
 
           {/* Items */}
