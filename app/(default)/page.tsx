@@ -33,8 +33,8 @@ export default function Home() {
 
   return (
     <>
-      {/* <Hero />
-      <Features /> */}
+      {/* <Hero /> */}
+      {/* <Features /> */}
       {/* <Onramp /> */}
       {/* <HowToBuy /> */}
       <Exchange />

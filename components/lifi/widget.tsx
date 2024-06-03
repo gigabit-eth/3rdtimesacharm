@@ -66,8 +66,16 @@ export const Widget = () => {
               container: {
                 borderRadius: "16px",
               },
+              palette: {
+                primary: { main: "#d90429" },
+                secondary: { main: "#ef233c" },
+                background: {
+                  paper: "#000000", // bg color for cards
+                  default: "#000000", // bg color container
+                },
+              },
             },
-            fee: 0.05,
+            fee: 0.08,
             insurance: true,
             toChain: 1151111081099710,
             appearance: "dark",

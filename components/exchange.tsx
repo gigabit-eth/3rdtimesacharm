@@ -41,6 +41,18 @@ export default function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 mt-24">
+            <h1
+              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-6 mt-20"
+              //data-aos="zoom-y-in"
+            >
+              <span className="text-white">Wall St. {""}</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FE4A49] to-[#FED766]">
+                Can't{" "}
+              </span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FE4A49] to-[#FED766]">
+                Stop Us Now
+              </span>
+            </h1>
             <h2 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#ed254e] to-[#f9dc5c] uppercase">
               Swap{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c6f8ff] to-[#595cff]">
