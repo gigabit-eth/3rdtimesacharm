@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "GmeCoin",
+  title: "Gme on Solana",
   description: "They Can't Halt This One.",
 };
 

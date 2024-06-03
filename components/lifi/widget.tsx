@@ -73,6 +73,10 @@ export const Widget = () => {
                   paper: "#000000", // bg color for cards
                   default: "#000000", // bg color container
                 },
+                // grey: {
+                //   300: "#222222", // border light theme
+                //   800: "#222222", // border dark theme
+                // },
               },
             },
             fee: 0.08,
