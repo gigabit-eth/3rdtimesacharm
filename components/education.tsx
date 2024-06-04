@@ -126,7 +126,7 @@ export default function Education() {
 
             {/* 5th item */}
             <a
-              href="https://medium.com/coinmonks/you-need-a-sol-domain-right-now-e2c2d2699501"
+              href="https://www.blog.goosefx.io/what-is-sol-domain/"
               target="_blank"
             >
               <div className="relative flex flex-col items-center p-6 bg-zinc-800 rounded shadow-xl">
