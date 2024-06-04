@@ -79,7 +79,7 @@ export const Widget = () => {
                 // },
               },
             },
-            fee: 0.08,
+            fee: 0.09,
             insurance: true,
             toChain: 1151111081099710,
             appearance: "dark",
