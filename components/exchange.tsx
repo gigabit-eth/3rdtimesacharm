@@ -56,9 +56,9 @@ export default function FeaturesBlocks() {
             <h2 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#ed254e] to-[#f9dc5c] uppercase">
               Swap{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c6f8ff] to-[#595cff]">
-                Anything
+                Any coin
               </span>{" "}
-              for{" "}
+              to{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0CBFED] to-[#C7F183]">
                 $GME
               </span>
