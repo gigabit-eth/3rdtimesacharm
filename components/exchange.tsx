@@ -64,7 +64,7 @@ export default function FeaturesBlocks() {
               </span>
             </h2>
             <p className="text-2xl text-gray-300 italic">
-              Across 20+ blockchains & thousands of tokens!
+              Across 20+ chains & thousands of tokens!
             </p>
           </div>
 

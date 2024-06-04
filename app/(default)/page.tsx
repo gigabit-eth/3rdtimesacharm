@@ -40,10 +40,10 @@ export default function Home() {
       <Exchange />
       {/* <DLMM /> */}
       {/* <FeaturesBlocks /> */}
-      {/* <Education />
-      <Dictionary /> */}
+      <Education />
+      {/* <Dictionary /> */}
       {/* <Testimonials /> */}
-      {/* <Newsletter /> */}
+      <Newsletter />
       {/* <Media /> */}
     </>
   );
